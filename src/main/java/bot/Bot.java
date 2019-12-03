@@ -15,7 +15,7 @@ public class Bot {
         JDABuilder jda = new JDABuilder();
 
         //Sets the bot's token which is configured in Config.Java
-        jda.setToken("");
+        jda.setToken(Config.TOKEN);
 
         //Sets the bot's rich presence
         jda.setActivity(Activity.playing("with my new bot!"));
