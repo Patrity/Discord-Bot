@@ -5,7 +5,6 @@ import listeners.GuildJoin;
 import listeners.PrivateMessage;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
-import javax.security.auth.login.LoginException;
 
 /**
  * This is the main class for the Discord bot.
@@ -17,7 +16,7 @@ import javax.security.auth.login.LoginException;
 
 public class Bot {
 
-    public static void main(String[] args) throws LoginException {
+    public static void main(String[] args) throws Exception {
         //Create the JDA object
         JDABuilder jda = new JDABuilder();
 

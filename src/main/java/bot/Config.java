@@ -12,5 +12,6 @@ package bot;
 public class Config {
 
     public static String TOKEN = "Insert Your Token Here!";
+    public static String PREFIX = "-";
 
 }
